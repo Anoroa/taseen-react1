@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url("../src/assets/Manrope/static/Manrope-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'ManropeB';
+  src: url("../src/assets/Manrope/static/Manrope-ExtraBold.ttf");
+}
+@font-face {
+  font-family: 'ManropeR';
+  src: url("../src/assets/Manrope/static/Manrope-Regular.ttf");
+}
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: Manrope , "sans-serif";
+  --font-manropeB : ManropeB , "sans-serif";
+  --font-manropeR : ManropeR , "sans-serif"
+}
